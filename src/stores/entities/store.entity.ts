@@ -3,7 +3,10 @@ import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 @Entity()
 export class Store {
   @PrimaryGeneratedColumn()
-  terminal_id: number;
+  id: number;
+
+  @Column()
+  terminal_id: string;
 
   @Column()
   nombre: string;

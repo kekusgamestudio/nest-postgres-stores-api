@@ -1,5 +1,6 @@
 export class CreateStoreDto {
-  readonly terminal_id: number;
+  readonly id: number;
+  readonly terminal_id: string;
   readonly nombre: string;
   readonly razon_social: string;
   readonly cuit: string;
