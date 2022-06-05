@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+I used [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository just to try it.
+This project includes PUT, POST, GET & DELETE http methods with respective connetion to Postgres DB.
 
 ## Installation
 
